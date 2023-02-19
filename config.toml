@@ -1,0 +1,52 @@
+baseurl      = "localhost"
+title        = "Muhtasim Hossain"
+languageCode = "en-uk"
+theme        = "hello-friend-ng"
+paginate     = 10
+
+[params]
+  dateform        = "Jan 2, 2006"
+  dateformShort   = "Jan 2"
+  dateformNum     = "2006-01-02"
+  dateformNumTime = "2006-01-02 15:04"
+
+  # Subtitle for home
+  homeSubtitle = "and you can find me using any of the link below"
+
+  # Set disableReadOtherPosts to true in order to hide the links to other posts.
+  disableReadOtherPosts = false
+
+  # Metadata mostly used in document's head
+  description = "Portfolio"
+  keywords = "Muhtasim Hossain, Portfolio"
+  images = [""]
+
+[languages]
+  [languages.en]
+    title = "This is Muhtasim Hossain"
+    subtitle = "Portfolio"
+    keywords = ""
+
+    [languages.en.params.logo]
+      logoText = "hello friend"
+      logoHomeLink = "/"
+    # or
+    #
+    # path = "/img/your-example-logo.svg"
+    # alt = "Your example logo alt text"
+
+[[params.social]]
+name = "facebook"
+url = "https://www.fb.com/nasif43"
+[[params.social]]
+name = "twitter"
+url = "https://twitter.com/muhtasimhossain"
+[[params.social]]
+name = "github"
+url = "https://github.com/nasif43"
+[[params.social]]
+name = "linkedin"
+url = "https://www.linkedin.com/in/muhtasim-hossain/"
+[[params.social]]
+name = "email"
+url = "mailto:muhtasimhossain43@gmail.com"

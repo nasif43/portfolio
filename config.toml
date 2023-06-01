@@ -50,3 +50,13 @@ url = "https://www.linkedin.com/in/muhtasim-hossain/"
 [[params.social]]
 name = "email"
 url = "mailto:muhtasimhossain43@gmail.com"
+
+[[menu.main]]
+  identifier = "whatsup"
+  name       = "What's Up"
+  url        = "/whatsup"
+
+# [[menu.main]]
+#  identifier = "projects"
+#  name       = "Projects"
+#  url        = "/projects"

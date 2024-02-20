@@ -1,0 +1,25 @@
+{{- $username := "nasif43" -}}
+{{- $repos := getJSON (printf "https://api.github.com/users/%s/repos" $username) -}}
+
+<ul>
+    {{- range $repos -}}
+    {{- if .description -}}
+    <li>
+        <strong><a href="{{ .html_url }}">{{ .name }}</a></strong>
+        <p>{{ .description }}</p>
+        <p>Last Updated: {{ .updated_at }}</p>
+    </li>
+    {{- end -}}
+    {{- end -}}
+
+    <!-- Fetch and include the description for the specific project -->
+    {{- $specificProjectURL := "https://api.github.com/repos/squar3one/zneak" -}}
+    {{- $specificProject := getJSON $specificProjectURL -}}
+    {{- if $specificProject.description -}}
+    <li>
+        <strong><a href="{{ $specificProject.html_url }}">zneak</a></strong>
+        <p>{{ $specificProject.description }}</p>
+        <p>Last Updated: {{ $specificProject.updated_at }}</p>
+    </li>
+    {{- end -}}
+</ul>

@@ -2,9 +2,29 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>This is Muhtasim Hossain</title>
-    <link>localhost/</link>
+    <link>https://master--muhtasimhossain.netlify.app/</link>
     <description>Recent content on This is Muhtasim Hossain</description>
     <generator>Hugo -- gohugo.io</generator>
-    <language>en-uk</language><atom:link href="localhost/index.xml" rel="self" type="application/rss+xml" />
+    <language>en-uk</language><atom:link href="https://master--muhtasimhossain.netlify.app/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Check out my projects</title>
+      <link>https://master--muhtasimhossain.netlify.app/projects/</link>
+      <pubDate>Mon, 20 Mar 2023 14:50:45 +0600</pubDate>
+      
+      <guid>https://master--muhtasimhossain.netlify.app/projects/</guid>
+      <description> </description>
+    </item>
+    
+    <item>
+      <title>What I&#39;m up to</title>
+      <link>https://master--muhtasimhossain.netlify.app/whatsup/</link>
+      <pubDate>Mon, 20 Mar 2023 14:50:45 +0600</pubDate>
+      
+      <guid>https://master--muhtasimhossain.netlify.app/whatsup/</guid>
+      <description>Here&amp;rsquo;s a list of things I&amp;rsquo;m currently working on, and hit me up if you want to have a cup of coffee on any of them!
+Python Crash Course I&amp;rsquo;m currently on a very short break from teaching Python to beginners. I&amp;rsquo;ll be back soon!
+The motivation behind the 7 day course was to give beginners an idea on what goes around in the world of programming to help them better understand the field and make a decision on whether they want to pursue it or not.</description>
+    </item>
+    
   </channel>
 </rss>

@@ -4,7 +4,8 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "tinacms build && hugo serve"
   },
   "keywords": [],
   "author": "",
@@ -14,6 +15,6 @@
   },
   "devDependencies": {
     "@tinacms/cli": "^1.5.45",
-    "@types/node": "^20.12.10"
+    "@types/node": "^20.12.11"
   }
 }

@@ -2,10 +2,16 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
-    <loc>localhost/categories/</loc>
+    <loc>https://master--muhtasimhossain.netlify.app/projects/</loc>
+    <lastmod>2023-03-20T14:50:45+06:00</lastmod>
   </url><url>
-    <loc>localhost/tags/</loc>
+    <loc>https://master--muhtasimhossain.netlify.app/whatsup/</loc>
+    <lastmod>2023-03-20T14:50:45+06:00</lastmod>
   </url><url>
-    <loc>localhost/</loc>
+    <loc>https://master--muhtasimhossain.netlify.app/categories/</loc>
+  </url><url>
+    <loc>https://master--muhtasimhossain.netlify.app/tags/</loc>
+  </url><url>
+    <loc>https://master--muhtasimhossain.netlify.app/</loc>
   </url>
 </urlset>

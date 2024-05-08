@@ -1,4 +1,4 @@
-baseurl      = "localhost"
+baseurl      = "https://master--muhtasimhossain.netlify.app/"
 title        = "Muhtasim Hossain"
 languageCode = "en-uk"
 theme        = "hello-friend-ng"
@@ -50,3 +50,18 @@ url = "https://www.linkedin.com/in/muhtasim-hossain/"
 [[params.social]]
 name = "email"
 url = "mailto:muhtasimhossain43@gmail.com"
+
+[[menu.main]]
+  identifier = "whatsup"
+  name       = "What's Up"
+  url        = "/whatsup"
+
+[[menu.main]]
+  identifier = "projects"
+  name       = "Projects"
+  url        = "/projects"
+
+[[menu.main]]
+  identifier = "posts"
+  name       = "Blog"
+  url        = "/posts"
